@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		DB0C68B22052FD70003E7CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68B12052FD70003E7CE2 /* AppDelegate.swift */; };
-		DB0C68B42052FD70003E7CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68B32052FD70003E7CE2 /* ViewController.swift */; };
-		DB0C68B72052FD70003E7CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0C68B52052FD70003E7CE2 /* Main.storyboard */; };
+		DB0C68B42052FD70003E7CE2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68B32052FD70003E7CE2 /* HomeVC.swift */; };
 		DB0C68B92052FD70003E7CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0C68B82052FD70003E7CE2 /* Assets.xcassets */; };
 		DB0C68BC2052FD70003E7CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0C68BA2052FD70003E7CE2 /* LaunchScreen.storyboard */; };
+		DB0C68C92052FF0A003E7CE2 /* EserciziArgomentiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68C82052FF0A003E7CE2 /* EserciziArgomentiVC.swift */; };
+		DB0C68CB2052FF96003E7CE2 /* EserciziVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68CA2052FF96003E7CE2 /* EserciziVC.swift */; };
+		DB0C68CD2052FFCB003E7CE2 /* TeoriaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68CC2052FFCB003E7CE2 /* TeoriaVC.swift */; };
+		DB0C68CF2052FFEC003E7CE2 /* Argomento.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68CE2052FFEC003E7CE2 /* Argomento.swift */; };
+		DB0C68D220530024003E7CE2 /* TeoriaTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68D120530024003E7CE2 /* TeoriaTextVC.swift */; };
+		DB0C68D42053005D003E7CE2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68D32053005D003E7CE2 /* Extensions.swift */; };
+		DB0C68D620530079003E7CE2 /* Esercizio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68D520530079003E7CE2 /* Esercizio.swift */; };
+		DB0C68D8205300AD003E7CE2 /* Opzione.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68D7205300AD003E7CE2 /* Opzione.swift */; };
+		DB0C68DA20530625003E7CE2 /* EserciziModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68D920530625003E7CE2 /* EserciziModel.swift */; };
+		DB0C68DC20530E0E003E7CE2 /* Esercizi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C68DB20530E0E003E7CE2 /* Esercizi.swift */; };
+		DB2C66D020557C7900EF95F3 /* RisultatiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C66CF20557C7900EF95F3 /* RisultatiVC.swift */; };
+		DB2C66D22055E0E900EF95F3 /* DetailResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C66D12055E0E900EF95F3 /* DetailResultVC.swift */; };
+		DB2C66D42055EEDB00EF95F3 /* CreditiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2C66D32055EEDB00EF95F3 /* CreditiVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB0C68AE2052FD70003E7CE2 /* Italiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Italiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0C68B12052FD70003E7CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB0C68B32052FD70003E7CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB0C68B62052FD70003E7CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0C68B32052FD70003E7CE2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DB0C68B82052FD70003E7CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0C68BB2052FD70003E7CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB0C68BD2052FD70003E7CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0C68C82052FF0A003E7CE2 /* EserciziArgomentiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EserciziArgomentiVC.swift; sourceTree = "<group>"; };
+		DB0C68CA2052FF96003E7CE2 /* EserciziVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EserciziVC.swift; sourceTree = "<group>"; };
+		DB0C68CC2052FFCB003E7CE2 /* TeoriaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeoriaVC.swift; sourceTree = "<group>"; };
+		DB0C68CE2052FFEC003E7CE2 /* Argomento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argomento.swift; sourceTree = "<group>"; };
+		DB0C68D120530024003E7CE2 /* TeoriaTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeoriaTextVC.swift; sourceTree = "<group>"; };
+		DB0C68D32053005D003E7CE2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DB0C68D520530079003E7CE2 /* Esercizio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esercizio.swift; sourceTree = "<group>"; };
+		DB0C68D7205300AD003E7CE2 /* Opzione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opzione.swift; sourceTree = "<group>"; };
+		DB0C68D920530625003E7CE2 /* EserciziModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EserciziModel.swift; sourceTree = "<group>"; };
+		DB0C68DB20530E0E003E7CE2 /* Esercizi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esercizi.swift; sourceTree = "<group>"; };
+		DB2C66CF20557C7900EF95F3 /* RisultatiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisultatiVC.swift; sourceTree = "<group>"; };
+		DB2C66D12055E0E900EF95F3 /* DetailResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResultVC.swift; sourceTree = "<group>"; };
+		DB2C66D32055EEDB00EF95F3 /* CreditiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditiVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,50 @@
 		DB0C68B02052FD70003E7CE2 /* Italiano */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C68C72052FEE3003E7CE2 /* Model */,
+				DB0C68C62052FEC9003E7CE2 /* Supporting Files */,
+				DB0C68C52052FEB8003E7CE2 /* View Controllers */,
 				DB0C68B12052FD70003E7CE2 /* AppDelegate.swift */,
-				DB0C68B32052FD70003E7CE2 /* ViewController.swift */,
-				DB0C68B52052FD70003E7CE2 /* Main.storyboard */,
-				DB0C68B82052FD70003E7CE2 /* Assets.xcassets */,
 				DB0C68BA2052FD70003E7CE2 /* LaunchScreen.storyboard */,
 				DB0C68BD2052FD70003E7CE2 /* Info.plist */,
 			);
 			path = Italiano;
+			sourceTree = "<group>";
+		};
+		DB0C68C52052FEB8003E7CE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C68B32052FD70003E7CE2 /* HomeVC.swift */,
+				DB0C68CC2052FFCB003E7CE2 /* TeoriaVC.swift */,
+				DB0C68D120530024003E7CE2 /* TeoriaTextVC.swift */,
+				DB0C68C82052FF0A003E7CE2 /* EserciziArgomentiVC.swift */,
+				DB0C68CA2052FF96003E7CE2 /* EserciziVC.swift */,
+				DB2C66CF20557C7900EF95F3 /* RisultatiVC.swift */,
+				DB2C66D12055E0E900EF95F3 /* DetailResultVC.swift */,
+				DB2C66D32055EEDB00EF95F3 /* CreditiVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DB0C68C62052FEC9003E7CE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C68B82052FD70003E7CE2 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB0C68C72052FEE3003E7CE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C68CE2052FFEC003E7CE2 /* Argomento.swift */,
+				DB0C68D32053005D003E7CE2 /* Extensions.swift */,
+				DB0C68D520530079003E7CE2 /* Esercizio.swift */,
+				DB0C68D7205300AD003E7CE2 /* Opzione.swift */,
+				DB0C68D920530625003E7CE2 /* EserciziModel.swift */,
+				DB0C68DB20530E0E003E7CE2 /* Esercizi.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +185,6 @@
 			files = (
 				DB0C68BC2052FD70003E7CE2 /* LaunchScreen.storyboard in Resources */,
 				DB0C68B92052FD70003E7CE2 /* Assets.xcassets in Resources */,
-				DB0C68B72052FD70003E7CE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +195,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0C68B42052FD70003E7CE2 /* ViewController.swift in Sources */,
+				DB0C68D42053005D003E7CE2 /* Extensions.swift in Sources */,
+				DB0C68C92052FF0A003E7CE2 /* EserciziArgomentiVC.swift in Sources */,
+				DB2C66D42055EEDB00EF95F3 /* CreditiVC.swift in Sources */,
+				DB2C66D22055E0E900EF95F3 /* DetailResultVC.swift in Sources */,
+				DB0C68D8205300AD003E7CE2 /* Opzione.swift in Sources */,
+				DB0C68D620530079003E7CE2 /* Esercizio.swift in Sources */,
+				DB0C68B42052FD70003E7CE2 /* HomeVC.swift in Sources */,
+				DB2C66D020557C7900EF95F3 /* RisultatiVC.swift in Sources */,
+				DB0C68CB2052FF96003E7CE2 /* EserciziVC.swift in Sources */,
+				DB0C68CD2052FFCB003E7CE2 /* TeoriaVC.swift in Sources */,
+				DB0C68DC20530E0E003E7CE2 /* Esercizi.swift in Sources */,
+				DB0C68DA20530625003E7CE2 /* EserciziModel.swift in Sources */,
 				DB0C68B22052FD70003E7CE2 /* AppDelegate.swift in Sources */,
+				DB0C68CF2052FFEC003E7CE2 /* Argomento.swift in Sources */,
+				DB0C68D220530024003E7CE2 /* TeoriaTextVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB0C68B52052FD70003E7CE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB0C68B62052FD70003E7CE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB0C68BA2052FD70003E7CE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5WYV8U42F;
 				INFOPLIST_FILE = Italiano/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danitox.Italiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5WYV8U42F;
 				INFOPLIST_FILE = Italiano/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danitox.Italiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
