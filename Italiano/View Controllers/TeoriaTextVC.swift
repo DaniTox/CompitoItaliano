@@ -21,6 +21,14 @@ class TeoriaTextVC : UIViewController {
         titolo.text = argomentoSelezionato?.titolo
     }
     
+    var testo : String {
+        get {
+            return UserDefaults.standard.string(forKey: "teoria") ?? "NULL"
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "teoria")
+        }
+    }
     
     private func setViews() {
         titolo = UILabel()
@@ -33,9 +41,11 @@ class TeoriaTextVC : UIViewController {
         
         textView = UITextView()
         textView.text = argomentoSelezionato?.body
+        textView.textColor = .white
         textView.font = UIFont.preferredFont(forTextStyle: .body).withSize(25)
         textView.backgroundColor = .yellow
-        textView.isEditable = false
+        textView.isEditable = true
+        textView.delegate = self
         textView.showsVerticalScrollIndicator = true
         textView.isScrollEnabled = true
         textView.scrollRangeToVisible(NSMakeRange(0, 0))
@@ -45,7 +55,7 @@ class TeoriaTextVC : UIViewController {
         
         setConstraints()
         
-        
+        textView.text = testo
     }
     
     override func viewDidLayoutSubviews() {
@@ -71,5 +81,12 @@ class TeoriaTextVC : UIViewController {
         textView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         textView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         
+    }
+}
+
+extension TeoriaTextVC : UITextViewDelegate {
+    func textViewDidEndEditing(_ textView: UITextView) {
+        testo = textView.text
+        print("edited")
     }
 }

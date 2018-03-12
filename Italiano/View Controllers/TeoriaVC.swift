@@ -12,7 +12,12 @@ class TeoriaVC : UIViewController {
     
     var tableView : UITableView!
     var argomenti : [Argomento] = [
-        Argomento(titolo: "Connettivi", body: "Prova teoria connettivi"),
+        Argomento(titolo: "Connettivi", body: """
+        I Connettivi sono parole che uniscono tra di loro due proposizioni (frasi). Possono essere coordinate o subordinate.
+        Coordinate: ordinano insieme vari elementi senza sottometterli l'uno con l'altro.
+        Subordinate: vuol dire che il significato della frase dipende interamente 
+
+        """),
         Argomento(titolo: "Articoli", body: "Prova teoria articoli"),
         Argomento(titolo: "Discorsi diretti e indiretti", body : "Testo di prova per i discorsi diretti e indiretti")
     ]
